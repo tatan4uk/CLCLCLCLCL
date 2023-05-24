@@ -18,7 +18,7 @@ public class Main {
             }
             return menuInput;
         } catch (Exception e) {
-            System.out.println("Повторите выбор пункта меню");
+            System.out.println("Введите номер пункта меню еще раз");
             return 0;
         }
     }
@@ -29,6 +29,7 @@ public class Main {
         boolean firstMenu = true;
         boolean secondMenu = false;
         int menuInput;
+        CalculatorDecimal calculator = new CalculatorDecimal();
 
         while (firstMenu) {
             System.out.println(
@@ -45,21 +46,25 @@ public class Main {
             switch (menuInput) {
                 case 1:
                     System.out.println("Выбрана Двоичная система счисления\n");
+                    calculator = new CaclulatorBinary();
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 2:
                     System.out.println("Выбрана Восьмиричная система счисления\n");
+                    calculator = new CalculatorOctal();
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 3:
                     System.out.println("Выбрана Десятичная система счисления\n");
+                    calculator = new CalculatorDecimal();
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 4:
                     System.out.println("Выбрана Шестнадцатиричная система счисления\n");
+                    calculator = new CalculatorHex();
                     firstMenu = false;
                     secondMenu = true;
                     break;
@@ -84,7 +89,7 @@ public class Main {
                                 2. Вычитание
                                 3. Умножение
                                 4. Деление
-                                5. Выбор системы счистления
+                                5. Выбор системы счисления
                                 6. Выход
                                 """);
                 menuInput = inputForMenu(scan);
@@ -93,10 +98,13 @@ public class Main {
 
                         System.out.println("Сложение\n");
                         System.out.println("Введите первое число\n");
+                        firstNumber = calculator.setA(scan.nextLine());
                         System.out.println("Введите второе число\n");
+                        secondNumber = calculator.setB(scan.nextLine());
                         System.out.println();
                         if(firstNumber && secondNumber)
-                        {System.out.println("Ответ:");}
+                        {System.out.println("Ответ:");
+                            calculator.plus();}
                         else {
                             if(!firstNumber){
                                 System.out.println("Первое число введено неверно");
@@ -112,10 +120,13 @@ public class Main {
                     case 2:
                         System.out.println("Вычитание\n");
                         System.out.println("Введите первое число\n");
+                        firstNumber = calculator.setA(scan.nextLine());
                         System.out.println("Введите второе число\n");
+                        secondNumber = calculator.setB(scan.nextLine());
                         System.out.println();
                         if(firstNumber && secondNumber)
-                        {System.out.println("Ответ:");}
+                        {System.out.println("Ответ:");
+                            calculator.minus();}
                         else {
                             if(!firstNumber){
                                 System.out.println("Первое число введено неверно");
@@ -131,10 +142,13 @@ public class Main {
                     case 3:
                         System.out.println("Умножение\n");
                         System.out.println("Введите первое число\n");
+                        firstNumber = calculator.setA(scan.nextLine());
                         System.out.println("Введите второе число\n");
+                        secondNumber = calculator.setB(scan.nextLine());
                         System.out.println();
                         if(firstNumber && secondNumber)
-                        {System.out.println("Ответ:");}
+                        {System.out.println("Ответ:");
+                            calculator.multiplication();}
                         else {
                             if(!firstNumber){
                                 System.out.println("Первое число введено неверно");
@@ -150,10 +164,13 @@ public class Main {
                     case 4:
                         System.out.println("Деление\n");
                         System.out.println("Введите первое число\n");
+                        firstNumber = calculator.setA(scan.nextLine());
                         System.out.println("Введите второе число\n");
+                        secondNumber = calculator.setB(scan.nextLine());
                         System.out.println();
                         if(firstNumber && secondNumber)
-                        {System.out.println("Ответ:");}
+                        {System.out.println("Ответ:");
+                            calculator.divide();}
                         else {
                             if(!firstNumber){
                                 System.out.println("Первое число введено неверно");

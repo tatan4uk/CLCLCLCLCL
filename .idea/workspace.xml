@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a7d283-a0f6-4768-b85e-5c29dedfcd93" name="Changes" comment="перегрузка методов для 2чной СС, а там еще была 10чная, но я забыла написать">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorHex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CaclulatorBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CaclulatorBinary.java" afterDir="false" />
+    <list default="true" id="b7a7d283-a0f6-4768-b85e-5c29dedfcd93" name="Changes" comment="то же самое, но для 8- и 16-чной СС">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684959370701</updated>
-      <workItem from="1684959372786" duration="4590000" />
+      <workItem from="1684959372786" duration="5589000" />
     </task>
     <task id="LOCAL-00001" summary="стартуем">
       <created>1684959531334</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684964682493</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="то же самое, но для 8- и 16-чной СС">
+      <created>1684965069302</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684965069302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,7 @@
     <MESSAGE value="заготовка менюшки и абстрактный класс" />
     <MESSAGE value="подправила ошибоччччки" />
     <MESSAGE value="перегрузка методов для 2чной СС, а там еще была 10чная, но я забыла написать" />
-    <option name="LAST_COMMIT_MESSAGE" value="перегрузка методов для 2чной СС, а там еще была 10чная, но я забыла написать" />
+    <MESSAGE value="то же самое, но для 8- и 16-чной СС" />
+    <option name="LAST_COMMIT_MESSAGE" value="то же самое, но для 8- и 16-чной СС" />
   </component>
 </project>
