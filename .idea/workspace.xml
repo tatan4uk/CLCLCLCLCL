@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a7d283-a0f6-4768-b85e-5c29dedfcd93" name="Changes" comment="стартуем">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AbstractCalculator.java" afterDir="false" />
+    <list default="true" id="b7a7d283-a0f6-4768-b85e-5c29dedfcd93" name="Changes" comment="заготовка менюшки и абстрактный класс">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AbstractCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AbstractCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684959370701</updated>
-      <workItem from="1684959372786" duration="2673000" />
+      <workItem from="1684959372786" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="стартуем">
       <created>1684959531334</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684962036234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="заготовка менюшки и абстрактный класс">
+      <created>1684963299851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684963299851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="стартуем" />
-    <option name="LAST_COMMIT_MESSAGE" value="стартуем" />
+    <MESSAGE value="заготовка менюшки и абстрактный класс" />
+    <option name="LAST_COMMIT_MESSAGE" value="заготовка менюшки и абстрактный класс" />
   </component>
 </project>

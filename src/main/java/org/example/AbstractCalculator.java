@@ -4,6 +4,11 @@ public abstract class AbstractCalculator {
     int a = 0;
     int b = 0;
 
+
+    /**
+     * Метод вывода числа в разных СС
+     * @param t - число
+     */
     static void print(int t) {
         System.out.println("2СС = " + Integer.toBinaryString(t));
         System.out.println("8СС = " + Integer.toOctalString(t));

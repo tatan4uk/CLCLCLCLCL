@@ -8,7 +8,7 @@ public class Main {
             int menuInput;
             while (true) {
                 String inputText = scanner.nextLine();
-                if (inputText.matches("^\\d{0,10}$")) {
+                if (inputText.matches("^\\d{0,10}$")) { // проверяем это циферы?
                     menuInput = Integer.parseInt(inputText);
                     break;
                 } else {
@@ -18,7 +18,7 @@ public class Main {
             }
             return menuInput;
         } catch (Exception e) {
-            System.out.println("Введите номер пункта меню еще раз");
+            System.out.println("Повторите выбор пункта меню");
             return 0;
         }
     }
@@ -33,7 +33,7 @@ public class Main {
         while (firstMenu) {
             System.out.println(
                     """
-                            \nВыберете систему счстления для вычисления:
+                            \nВыберете систему счисления для вычисления:
                             1. Двоичная
                             2. Восьмеричная
                             3. Десятичная
@@ -44,22 +44,22 @@ public class Main {
             menuInput = inputForMenu(scan);
             switch (menuInput) {
                 case 1:
-                    System.out.println("Выбрана Двоичная система счистления\n");
+                    System.out.println("Выбрана Двоичная система счисления\n");
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 2:
-                    System.out.println("Выбрана Восьмиричная система счистления\n");
+                    System.out.println("Выбрана Восьмиричная система счисления\n");
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 3:
-                    System.out.println("Выбрана Десятичная система счистления\n");
+                    System.out.println("Выбрана Десятичная система счисления\n");
                     firstMenu = false;
                     secondMenu = true;
                     break;
                 case 4:
-                    System.out.println("Выбрана Шестнадцатиричная система счистления\n");
+                    System.out.println("Выбрана Шестнадцатиричная система счисления\n");
                     firstMenu = false;
                     secondMenu = true;
                     break;
@@ -99,10 +99,10 @@ public class Main {
                         {System.out.println("Ответ:");}
                         else {
                             if(!firstNumber){
-                                System.out.println("Первое число введино неверно");
+                                System.out.println("Первое число введено неверно");
                             }
                             if(!secondNumber){
-                                System.out.println("Второе число введино неверно");
+                                System.out.println("Второе число введено неверно");
                             }
                         }
                         System.out.println("---");
@@ -118,10 +118,10 @@ public class Main {
                         {System.out.println("Ответ:");}
                         else {
                             if(!firstNumber){
-                                System.out.println("Первое число введино неверно");
+                                System.out.println("Первое число введено неверно");
                             }
                             if(!secondNumber){
-                                System.out.println("Второе число введино неверно");
+                                System.out.println("Второе число введено неверно");
                             }
                         }
                         System.out.println("---");
@@ -137,10 +137,10 @@ public class Main {
                         {System.out.println("Ответ:");}
                         else {
                             if(!firstNumber){
-                                System.out.println("Первое число введино неверно");
+                                System.out.println("Первое число введено неверно");
                             }
                             if(!secondNumber){
-                                System.out.println("Второе число введино неверно");
+                                System.out.println("Второе число введено неверно");
                             }
                         }
                         System.out.println("---");
@@ -156,10 +156,10 @@ public class Main {
                         {System.out.println("Ответ:");}
                         else {
                             if(!firstNumber){
-                                System.out.println("Первое число введино неверно");
+                                System.out.println("Первое число введено неверно");
                             }
                             if(!secondNumber){
-                                System.out.println("Второе число введино неверно");
+                                System.out.println("Второе число введено неверно");
                             }
                         }
                         System.out.println("---");
