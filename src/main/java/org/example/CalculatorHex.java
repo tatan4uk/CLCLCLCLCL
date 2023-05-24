@@ -1,18 +1,17 @@
 package org.example;
 
-public class CaclulatorBinary extends CalculatorDecimal {
-
+public class CalculatorHex extends CalculatorDecimal {
 
     @Override
     public boolean setA(String x) {
         try {
             a = 0;
-            a = Integer.parseInt(x, 2);
+            a = Integer.parseInt(x, 16);
             System.out.println("число");
             print(a);
             return true;
         } catch (Exception e) {
-            System.out.println("Ошибка преобразования строки в бинарное число");
+            System.out.println("Ошибка преобразования строки в шестнадцатиричное число");
             return false;
         }
     }
@@ -21,12 +20,12 @@ public class CaclulatorBinary extends CalculatorDecimal {
     public boolean setB(String x) {
         try {
             b = 0;
-            b = Integer.parseInt(x, 2);
+            b = Integer.parseInt(x, 16);
             System.out.println("число");
             print(b);
             return true;
         } catch (Exception e) {
-            System.out.println("Ошибка преобразования строки в бинарное число");
+            System.out.println("Ошибка преобразования строки в шестнадцатиричное  число");
             return false;
         }
     }
